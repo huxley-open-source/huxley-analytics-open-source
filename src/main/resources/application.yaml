@@ -1,0 +1,11 @@
+server:
+  context-path: /analytics
+  port: 8083
+
+spring:
+  data:
+    rest:
+      max-page-size: 10
+      default-page-size: 10
+    mongodb:
+      database: analytics
